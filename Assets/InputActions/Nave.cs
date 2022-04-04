@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Nave.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/InputActions/Nave.inputactions'
 
 using System;
 using System.Collections;
@@ -223,7 +223,7 @@ public class @Nave : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
-                    ""path"": ""<Mouse>/leftButton"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",

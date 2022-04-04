@@ -10,6 +10,8 @@ public class ShipController : MonoBehaviour
     public float turn = 90f;
     public float inputHorizontal, inputVertical;
 
+    public GameObject bullet;
+    public Transform canon;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -36,5 +38,9 @@ public class ShipController : MonoBehaviour
     {
        inputHorizontal = valor.Get<Vector2>().x;
        inputVertical = valor.Get<Vector2>().y;
+    }
+
+    public void OnFire(){
+        Instantiate(bullet, canon.transform.position, Quaternion.identity);
     }
 }
